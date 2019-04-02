@@ -1,0 +1,40 @@
+/*horizontal navigation*/
+nav li{
+  list-style: none; /*gets rid of bullet point*/
+  display: inline; /*this puts the line across the page*/
+}
+
+nav li a{ 
+    text-decoration: none; /*gets rid of text-underlining*/ 
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px;
+  background-color: #5B5B5B;
+  position: inherit;
+  overflow: hidden;
+  margin: 4px;
+  margin-bottom: 20px;
+  width: 100%;
+
+}
+
+li {
+  float:left;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li a {
+  display: block;
+  color: #D4DFC7;
+  text-align: center;
+  padding: 12px 25px;
+  text-decoration: none;
+
+}
+.nav a:hover{
+  background-color: #D4DFC7;
+  color: #5B5B5B;
+}
